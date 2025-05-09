@@ -42,3 +42,51 @@ CREATE TABLE tasks (
     date_created DATETIME NOT NULL,
     is_done BOOLEAN DEFAULT 0
 );
+
+
+--------------------------------------------------------------------------------------------------------------
+# 📝 To-Do List - Yapılacaklar Listesi Uygulaması
+
+A simple and useful to-do list application. Developed with C# Windows Forms, data is stored in MySQL database. Add, edit, complete or delete your tasks. All on a single screen, designed for ease of use.
+
+## 🚀 What Can You Do?
+
+- ✅ Add new task
+- 🧠 Organize your tasks
+- ⛔ Delete unnecessary tasks
+- 📌 Mark completed tasks
+- 📅 Filter tasks by date
+- 📊 See the overall situation with statistics
+
+## 🛠️ Teknolojiler
+
+- C# (Windows Forms)
+- MySQL
+- MySql.Data library (NuGet)
+
+## 🗃️Database Information
+
+**Database Name:** `todo_app`
+
+### `tasks` table:
+
+| Colon | Medicine | Explanation |
+|-------|-----|----------|
+| `id` | INT | Automatically incrementing task ID |
+| `description` | TEXT | Task description |
+| `date_created` | DATETIME | Added time |
+| `is_done` | BOOLEAN | Completion status (0: No, 1: Yes) |
+
+### SQL Installation:
+```sql
+CREATE DATABASE todo_app;
+
+USE todo_app;
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    description TEXT NOT NULL,
+    date_created DATETIME NOT NULL,
+    is_done BOOLEAN DEFAULT 0
+);
+
