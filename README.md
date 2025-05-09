@@ -43,8 +43,7 @@ CREATE TABLE tasks (
     is_done BOOLEAN DEFAULT 0
 );
 
-####
---------------------------------------------------------------------------------------------------------------
+#### English explanation:
 # 📝 To-Do List - Yapılacaklar Listesi Uygulaması
 
 A simple and useful to-do list application. Developed with C# Windows Forms, data is stored in MySQL database. Add, edit, complete or delete your tasks. All on a single screen, designed for ease of use.
