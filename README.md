@@ -43,7 +43,7 @@ CREATE TABLE tasks (
     is_done BOOLEAN DEFAULT 0
 );
 
-
+####
 --------------------------------------------------------------------------------------------------------------
 # 📝 To-Do List - Yapılacaklar Listesi Uygulaması
 
